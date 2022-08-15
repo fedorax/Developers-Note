@@ -3,7 +3,7 @@ sequenceDiagram
     Actor User
     participant Component
     participant State
-    State-->>Component: set default value
+    State-->>State: set default value
     loop one way
     User->>Component: interaction
     Component->>State: event
@@ -20,7 +20,7 @@ sequenceDiagram
     participant Component
     participant State
 
-    State-->>Component: count=0
+    State-->>State: count=0
 
     alt Count Up
         User->>Component: Count Up
