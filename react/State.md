@@ -12,7 +12,7 @@ sequenceDiagram
     end
 ```
 
-## Excample Counter
+## Example Counter
 
 ```mermaid
 sequenceDiagram
